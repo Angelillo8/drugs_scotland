@@ -1,0 +1,227 @@
+.jumbotron {
+    background-image: url("../images/drugs1.jpg");
+    padding-top: 10em;
+    padding-bottom: 10em;
+    background-size:cover;
+    background-attachment: fixed;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.box {
+    background-color: rgb(255,255,255, 0.70);
+    font-weight: 1000;
+    transform: translateY(-30%);
+    text-align:center;
+}
+body{
+    background-color: rgb(201, 201, 201);
+}
+html,h2,h3,h4,h5,h6{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+}
+h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    font-weight: bolder;
+}
+h4,h5{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+}
+a{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px; 
+}
+p, span, ol, ul, li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    text-align: justify;
+}
+.lead{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Roboto Mono', monospace;
+}
+.logo {
+  height: auto;
+  width: auto;
+  max-height: auto;
+  max-width: 250px;
+}
+.navbar{
+    background:#24331d;
+}
+
+.nav-link , .navbar-brand{
+	color: #f4f4f4;
+	cursor: pointer;
+}
+.nav-link{
+	margin-right: 1em !important;
+}
+.nav-link:hover{
+	background: #24331d;
+}
+.navbar-collapse{
+ justify-content: flex-end;
+ float:right;
+}
+.navbar-right {
+    position: absolute;
+    right: 0;
+  }
+.column, .white{
+    background-color: white;
+    padding: 20px;
+    border-right: 15px solid rgb(201, 201, 201);
+    border-left: 15px solid rgb(201, 201, 201);
+    border-bottom: 15px solid rgb(201, 201, 201);
+    border-top: 15px solid rgb(201, 201, 201);
+}
+.column11, .white{
+    background-color: white;
+    padding: 20px;
+    border-right: 15px solid rgb(201, 201, 201);
+    border-left: 15px solid rgb(201, 201, 201);
+}
+
+.column12, .white{
+    background-color: white;
+    padding: 20px;
+    border-right: 15px solid rgb(201, 201, 201);
+    border-left: 15px solid rgb(201, 201, 201);
+}
+.column13, .white{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-right: 15px solid rgb(201, 201, 201);
+    border-left: 15px solid rgb(201, 201, 201);
+}
+.column14, .white{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 15px solid rgb(201, 201, 201);
+    border-left: 15px solid rgb(201, 201, 201);
+}
+.column15, .white{
+    background-color: white;
+    padding: 20px;
+    border-right: 15px solid rgb(201, 201, 201);
+    border-left: 15px solid rgb(201, 201, 201);
+    border-bottom: 15px solid rgb(201, 201, 201);
+}
+.column21, .white{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-left: 15px solid rgb(201, 201, 201);
+}
+.column22, .white{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-right: 15px solid rgb(201, 201, 201);
+}
+.column31, .white{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-left: 15px solid rgb(201, 201, 201);
+}
+.column32, .white{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 15px solid rgb(201, 201, 201);
+}
+.column33, .white{
+    background-color: white;
+    padding: 20px;
+    border-right: 15px solid rgb(201, 201, 201);
+    border-left: 15px solid rgb(201, 201, 201);
+}
+.column34, .white{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 15px solid rgb(201, 201, 201);
+}
+.column35, .white{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-right: 15px solid rgb(201, 201, 201);
+}
+.column4, .white{
+    background-color: white;
+    padding: 20px;
+    border-right: 15px solid rgb(201, 201, 201);
+    border-left: 15px solid rgb(201, 201, 201);
+    border-bottom: 15px solid rgb(201, 201, 201);
+    border-top: 15px solid rgb(201, 201, 201);
+}
+.green{
+    color: #24331d;
+}
+.footer{
+    background-color: #24331d;
+    color: #f4f4f4;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    flex-shrink: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.img-fluid {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.carousel-item {
+    height: 23rem;
+    background: #777;
+    color: white;
+    position: relative;
+}
+.carousel-item.two {
+    height: 35rem;
+    background: #777;
+    color: white;
+    position: relative;
+}
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+}
+.btn{
+    background-color: #24331d;
+    font-family: 'Roboto Mono', monospace;
+}
+label{
+    font-family: 'Roboto Mono', monospace;
+    padding-bottom: 20px;
+    color: #24331d;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
